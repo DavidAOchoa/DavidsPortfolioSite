@@ -12,6 +12,8 @@ This is the code for my portolio to be viewed by any who are interested in how I
 - Complete my contact form
 
 ## Techstack
-* [Angular] - The framework I used to develop the site
+* [Angular] - The front end framework I used to develop the site
+* [Bulma] - the css framework I used to develop the site
 
 [Angular]: <https://angular.io/>
+[Bulma]: <https://bulma.io/>
