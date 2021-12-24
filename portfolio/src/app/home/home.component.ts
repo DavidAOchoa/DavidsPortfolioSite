@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-home',
   template: `
     <section class="hero is-large is-info">
-  <div class="hero-body has-background-black">
+  <div class="hero-body is-family-code">
     <p class="title">
       David Ochoa
     </p>
@@ -14,8 +14,15 @@ import { Component, OnInit } from '@angular/core';
   </div>
 </section>
   `,
-  styles: [
-  ]
+  styles: [`
+  
+    .hero {
+      background-image: url('/assets/image/SkullFaceGirl.jpg') !important;
+      background-size: cover;
+      background-position: center center;
+    }
+
+  `]
 })
 export class HomeComponent implements OnInit {
 
