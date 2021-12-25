@@ -4,12 +4,21 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-home',
   template: `
     <section class="hero is-large is-info">
-  <div class="hero-body is-family-code">
-    <p class="title">
-      David Ochoa
-    </p>
+    <div class="hero-body">
+
+  
+  <!-- Importing Links for Salsa Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Salsa&display=swap" rel="stylesheet">
+  
+
+  <p class="title is-size-2">
+    Hi. I’m David.
+    A UI/UX Developer.  </p>
     <p class="subtitle">
-      Large subtitle
+    I’m a Student at the University of Texas at Dallas,
+    and part time Barista at XO Coffee & Bistro.
     </p>
   </div>
 </section>
@@ -20,6 +29,8 @@ import { Component, OnInit } from '@angular/core';
       background-image: url('/assets/image/SkullFaceGirl.jpg') !important;
       background-size: cover;
       background-position: center center;
+      font-family: 'Salsa', cursive;
+      
     }
 
   `]

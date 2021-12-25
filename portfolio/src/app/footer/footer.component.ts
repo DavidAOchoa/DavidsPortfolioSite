@@ -4,13 +4,24 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-footer',
   template: `
     <footer class="footer">
-     <div class="container content has-text-centered">
+     <div class="container content has-text-white">
         <p>Made with ❤ by David from Scratch</p>
      </div>
     </footer>
   `,
-  styles: [
-  ]
+  styles: [`
+  .footer {
+    background-color: rgb(31,27,34);
+  }
+
+  .container {
+    position: relative;
+    bottom: -55px;
+    left: -25px;
+  
+
+  }
+  `]
 })
 export class FooterComponent implements OnInit {
 

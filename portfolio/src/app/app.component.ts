@@ -15,7 +15,9 @@ import { Component } from '@angular/core';
   <!-- Footer -->
   <app-footer></app-footer>
   `,
-  styles: []
+  styles: [`
+   
+  `]
 })
 export class AppComponent {
   title = "David's portfolio site!";
