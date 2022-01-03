@@ -21,7 +21,9 @@ import { Component, OnInit } from '@angular/core';
         <div class="navbar-start">
           <a class="navbar-item has-text-white">about</a>
           <a class="navbar-item has-text-white" href="/assets/documents/DavidOchoaResume.pdf">resume</a>
-          <a class="navbar-item has-text-white">work</a>
+          
+          <!-- <a class="navbar-item has-text-white">work</a> -->
+          
           <a class="navbar-item has-text-white">contact</a>
           <a class="navbar-item has-text-white"  href="https://github.com/DavidAOchoa">GitHub</a>
           

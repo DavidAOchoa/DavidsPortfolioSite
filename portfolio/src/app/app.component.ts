@@ -9,6 +9,8 @@ import { Component } from '@angular/core';
   <app-home></app-home>
   <!-- About page-->
   <app-about-page></app-about-page>
+  <!-- Contact page-->
+  <app-contact></app-contact>
   <!-- routes get injected here-->
   <router-outlet></router-outlet>
   <!-- Footer -->

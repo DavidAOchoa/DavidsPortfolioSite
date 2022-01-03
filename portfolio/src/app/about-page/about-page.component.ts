@@ -18,7 +18,7 @@ import { Component, OnInit } from '@angular/core';
             Hello, I’m David. I’m originally from Houston, and I am currently studying at UT Dallas.
             These days I spend my time studying, designing, and working at a local coffee shop. Outside
             of the workspace, you’ll often find me at record stores, at home playing guitar or exploring the
-            Dallas area. I have a passion for UI/UX design and all things design related.  
+            Dallas area. I have a passion for UI/UX design and all things coffee related.  
           </p>
         </div>
       </div>
