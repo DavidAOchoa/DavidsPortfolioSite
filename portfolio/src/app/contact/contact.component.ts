@@ -93,6 +93,10 @@ import { Component, OnInit } from '@angular/core';
   .section {
     background-color: rgb(31,27,34);
   }
+
+  .button {
+    font-family: 'Salsa', cursive;
+  }
   
   `]
 })
