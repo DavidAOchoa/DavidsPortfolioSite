@@ -11,12 +11,12 @@ import { Component, OnInit } from '@angular/core';
       <link href="https://fonts.googleapis.com/css2?family=Salsa&display=swap" rel="stylesheet">
       
       <div class="paragraphBody">
-        <p class="title is-size-2">
+        <p class="title is-size-1">
           Hi. I’m David.
           A UI/UX Developer.  
         </p>
           
-        <p class="subtitle">
+        <p class="subtitle is-size-3">
           I’m a Student at the University of Texas at Dallas,
           and part time Barista at XO Coffee & Bistro.
         </p>
@@ -31,6 +31,10 @@ import { Component, OnInit } from '@angular/core';
       color: white;
       border-radius: 25px;
       padding: 10px;
+      position: absolute;
+      
+      
+      
     }
 
     .hero {

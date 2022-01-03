@@ -7,6 +7,8 @@ import { Component } from '@angular/core';
   <app-header></app-header>
   <!-- Home -->
   <app-home></app-home>
+
+  <app-about-page></app-about-page>
   <!-- routes get injected here-->
   <router-outlet></router-outlet>
   <!-- Footer -->
@@ -14,6 +16,8 @@ import { Component } from '@angular/core';
   `,
   styles: [`
    
+
+
   `]
 })
 export class AppComponent {

@@ -20,6 +20,7 @@ import { Component, OnInit } from '@angular/core';
     .footer {
         background-color: rgb(31,27,34);
         font-family: 'Source Serif Pro', serif;
+        color: white;
         
     }
  
