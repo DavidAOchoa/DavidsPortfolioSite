@@ -17,3 +17,4 @@ This is the code for my portolio to be viewed by any who are interested in how I
 
 [Angular]: <https://angular.io/>
 [Bulma]: <https://bulma.io/>
+[Firebase]: <https://firebase.google.com/?gclid=Cj0KCQiA2sqOBhCGARIsAPuPK0jFQYsdHMvLs1I-bzs16VzVv7pQvR8ZSqKlcsfLp1fuEJzy-UNYabYaArKiEALw_wcB&gclsrc=aw.ds>
