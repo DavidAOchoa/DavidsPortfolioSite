@@ -8,9 +8,9 @@ import { Component, OnInit } from '@angular/core';
       <!-- logo -->
       <div class="navbar-brand">
 
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap" rel="stylesheet">
 
         <a class="navbar-item">
           <img src="assets/image/ACMProjects.png" alt="Image not found">          
@@ -20,19 +20,12 @@ import { Component, OnInit } from '@angular/core';
       <div class="navbar-menu" id="nav-links">
         <div class="navbar-start">
           <a class="navbar-item has-text-white">about</a>
-          <a class="navbar-item has-text-white" href="/assets/documents/DavidOchoaResume.pdf">resume</a>
-          
-          <!-- <a class="navbar-item has-text-white">work</a> -->
-          
           <a class="navbar-item has-text-white">contact</a>
+          <a class="navbar-item has-text-white" href="/assets/documents/DavidOchoaResume.pdf">resume</a>
           <a class="navbar-item has-text-white"  href="https://github.com/DavidAOchoa">GitHub</a>
-          
-          
-          
-
+          <!-- <a class="navbar-item has-text-white">work</a> -->
         </div>
       </div>
-
     </div>
   `,
   styles: [`
