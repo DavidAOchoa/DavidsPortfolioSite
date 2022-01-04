@@ -49,7 +49,7 @@ import { Component, OnInit } from '@angular/core';
                   email>
 
                   <div class="help is-error" *ngIf="emailInput.invalid && emailInput.touched">
-                    Your email is required and needs to be a valid email.
+                    Your email is required and must be a valid email.
                   </div>
                   
               </div>
