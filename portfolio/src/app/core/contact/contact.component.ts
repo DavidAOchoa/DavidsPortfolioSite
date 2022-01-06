@@ -1,4 +1,6 @@
+import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
+import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-contact',
@@ -15,7 +17,7 @@ import { Component, OnInit } from '@angular/core';
         <div class="container">
           <!-- Contact Form -->
           <div class="formBody">
-            <form (ngSubmit)="submitForm()" #contactForm="ngForm">
+            <form action="https://formspree.io/f/xqknanbe" method="POST">
 
             <!-- Contact Me header -->
             <h1 class="title has-text-white">Contact Me!</h1>
@@ -26,14 +28,12 @@ import { Component, OnInit } from '@angular/core';
                 <input 
                   type="text" 
                   name="name" 
-                  class="input" 
-                  [(ngModel)]="name" 
-                  #nameInput="ngModel"
-                  required>
+                  id="full-name"
+                  class="input"
+                  required=""
+                  >
 
-                <div class="help is-error" *ngIf="nameInput.invalid && nameInput.touched">
-                  Your name is required.
-                </div>
+             
               </div>
 
               <!-- email -->
@@ -41,34 +41,34 @@ import { Component, OnInit } from '@angular/core';
                 <label class="label has-text-white">Email</label>
                 <input 
                   type="email" 
-                  name="email" 
-                  class="input" 
-                  [(ngModel)]="email"
-                  #emailInput="ngModel"
-                  required
-                  email>
+                  name="_replyto" 
+                  id="email-address"
+                  class="input"
+                  required=""
+                  >
 
-                  <div class="help is-error" *ngIf="emailInput.invalid && emailInput.touched">
-                    Your email is required and must be a valid email.
-                  </div>
+                 
                   
               </div>
 
               <!-- message -->
               <div class="field">
                 <label class="label has-text-white">Message</label>
-                <textarea name="message" class="textarea" [(ngModel)]="message"></textarea>
+                <textarea 
+                
+                class="textarea"
+                name="message" 
+                id="message" 
+                
+                required=""
+                maxlength="256"></textarea>
               </div>
               
               
               <!-- submit button -->
-              <button 
-              type="submit" 
-              class="button"
-              [disabled]="contactForm.invalid">
+              <button type="submit" class="button">
                 Send!
               </button>
-
             </form>
           </div>
         </div>
@@ -80,7 +80,7 @@ import { Component, OnInit } from '@angular/core';
   
  
 
-  .formBody {
+   .formBody {
     font-family: 'Salsa', cursive;
     background-color: rgba(23, 19, 27, 1);
     color: white;
@@ -96,15 +96,18 @@ import { Component, OnInit } from '@angular/core';
 
   .button {
     font-family: 'Salsa', cursive;
-  }
+    
+  } 
+
+  
   
   `]
 })
+
 export class ContactComponent implements OnInit {
 name: string = "";
 email: string = "";
 message: string = "";
-
 
 
   constructor() { }
@@ -113,10 +116,7 @@ message: string = "";
   }
 
   submitForm() {
-    const message = `My name is ${this.name}. My Email is ${this.email}
-    My Message is ${this.message}`;
-    // grab all the fields and their values
-    alert(message);
+  
   }
 
 }
