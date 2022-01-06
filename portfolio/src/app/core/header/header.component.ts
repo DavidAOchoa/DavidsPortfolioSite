@@ -13,7 +13,7 @@ import { Component, OnInit } from '@angular/core';
         <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap" rel="stylesheet">
 
         <a class="navbar-item">
-          <img src="assets/image/ACMProjects.png" alt="Image not found">          
+          <img src="assets/image/Pie.png" alt="Image not found">          
         </a> 
       </div>
 
